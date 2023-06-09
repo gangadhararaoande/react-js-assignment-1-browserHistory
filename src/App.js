@@ -157,7 +157,7 @@ class App extends Component {
                   </div>
                   <button
                     className="delete-button"
-                    testid="delete"
+                    data-testid="delete"
                     type="button"
                     onClick={() => this.FillFunction(eachObject.id)}
                   >
